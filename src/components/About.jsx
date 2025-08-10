@@ -2,6 +2,7 @@
 // components/About.js
 import React from "react";
 import { Code, ArrowRight } from "lucide-react";
+import dilawartImg from "../assets/dilawart.JPG";
 
 const About = React.forwardRef(({ 
   isAnimated, 
@@ -64,7 +65,7 @@ const About = React.forwardRef(({
               position: "relative",
             }}>
               <img
-                src="../src/assets/dilawart.JPG"
+                src={dilawartImg} 
                 alt="About Me"
                 style={{
                   width: "100%",
