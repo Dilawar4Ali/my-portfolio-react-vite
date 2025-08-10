@@ -64,7 +64,7 @@ const About = React.forwardRef(({
               position: "relative",
             }}>
               <img
-                src="/images/dilawart.JPG"
+                src="../src/assets/dilawart.JPG"
                 alt="About Me"
                 style={{
                   width: "100%",
